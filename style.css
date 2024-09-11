@@ -1,0 +1,147 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Nav 1 */
+.navbar1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(193, 193, 193, 0.649);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar1 .info-details {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.navbar1 .info-details img {
+    width: 15px;
+    height: 15px;
+}
+.navbar1 .socmed {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding-right: 20px;
+}
+.navbar1 .socmed img {
+    width: 20px;
+    height: 20px;
+}
+/* End Nav 1 */
+
+
+/* Nav 2 */
+.navbar2 {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar2 .logo img {
+    width: 250px;
+}
+.navbar2 input {
+    width: 500px;
+    height: 40px;
+    border: 1px solid rgba(206, 206, 206, 0.754);
+    padding-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar2 .basket {
+    display: flex;
+    gap: 25px;
+}
+.navbar2 .basket img {
+    width: 25px;
+}
+.navbar2 .basket1, .basket2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar2 .nav-list {
+    display: flex;
+    gap: 20px;
+}
+/* End Nav 2 */
+
+/* Nav 3 */
+.navbar3 {
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.navbar3 .brand-lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navbar3 .brand-lists a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+div a:hover {
+    background-color:#bf9b30;
+    height: 100px;
+    padding: 20px;
+}
+
+
+/* Hero section */
+
+section {
+    background-image: url(img/hero-cover.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    margin-left: 50px;
+    width: 70%;
+    text-decoration: none;
+    background-size: cover;
+    height: 70vh;
+}
+.slogan {
+    font-weight: bold;
+    text-align: left;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding-top: 80px;
+    text-decoration: none;
+}
+.paragraph {
+    /* color: #bf9b30; */
+    color: white;
+    line-height: 28px;
+}
+footer {
+    background-color: #bf9b30;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
