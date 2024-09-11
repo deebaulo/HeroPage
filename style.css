@@ -136,6 +136,47 @@ section {
     color: white;
     line-height: 28px;
 }
+
+/* Buttons */
+
+.cta-btn {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+#btn-1 {
+    margin-top: 30px;
+    padding: 13px 25px;
+    border: 1px solid #bf9b30;
+    background-color: #bf9b30;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    gap:10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.9s all ease-in-out;
+}
+#btn-1:hover {
+    transform: scale(1.1);
+}
+#btn-2:hover {
+    transform: scale(1.1);
+}
+#btn-2 {
+    margin-top: 30px;
+    padding: 13px 25px;
+    border: 2px solid #bf9b30;
+    background-color: white;
+    text-transform: uppercase;
+    color: #bf9b30;
+    font-weight: 700;
+    letter-spacing: 3px;
+    gap:10px;
+    cursor: pointer;
+    transition: 1s all ease-in-out;
+}
 footer {
     background-color: #bf9b30;
     display: flex;
